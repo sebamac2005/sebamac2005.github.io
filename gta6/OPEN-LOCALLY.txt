@@ -1,0 +1,9 @@
+Open index.html directly in your browser. No server is needed.
+
+Keep index.html, game.bundle.js, and the asset folders together.
+The bundled file contains the game code, image textures, and the list of radio tracks and custom sounds present when it was built.
+If you edit game source files, replace images, or add songs or sounds, run:
+
+  python3 work/build-direct-open.py
+
+from the project root before opening the page again.
